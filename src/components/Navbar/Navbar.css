@@ -1,0 +1,36 @@
+.navs{
+    position: relative;
+    /* text-decoration: none; */
+  }
+  .navs:hover::before{
+    width: 100%;
+  }
+
+  .navs:hover{
+    background: none;
+  }
+  
+  .navs::before{
+    content: "";
+    position: absolute;
+    height: .1rem;
+    width: 0%;
+    background: black;
+    bottom: -.1rem;
+    transition: .4s linear;
+  }
+  .active::before{
+    content: "";
+    position: absolute;
+    height: .1rem;
+    width: 100%;
+    background: black;
+    bottom: -.1rem;
+    transition: .4s linear;
+    /* width: 100%; */
+  }
+
+  /* .navs.active {
+    background-color: transparent !important; 
+    color: #fff !important; 
+  } */

@@ -1,0 +1,10 @@
+.image {
+    transform: perspective(800px) rotateY(25deg) translateY(50px) translateX(30px) rotateX(10deg) scale(1);
+    transition: all .6s ease-out;
+
+}
+
+.image:hover {
+    transform: perspective(800px) rotateY(-2deg) translateY(50px) translateX(80px) rotateX(0deg) scale(1.2);
+    transition: all .6s ease;
+}

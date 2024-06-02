@@ -1,0 +1,34 @@
+/* Banner.css */
+.banner-container {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.banner1, .banner2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease-in-out;
+    backface-visibility: hidden;
+}
+
+.banner1 {
+    z-index: 2;
+    transition: transform 2s ease-in-out;
+}
+
+.banner2 {
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.banner-container:hover .banner1 {
+    transform: translateX(-100%);
+}
+
+.banner-container:hover .banner2 {
+    opacity: 1;
+    z-index: 2;
+}
