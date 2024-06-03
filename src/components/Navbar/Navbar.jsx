@@ -33,7 +33,7 @@ const Navbar = () => {
                     // onClick={(e) => handleAnchorClick(e, "home")}
                     className={({ isActive }) =>
                         `${isActive ? "active  " : " text-black"
-                        } duration-300 text-base lg:text-lg font-semibold transition navs`
+                        } duration-300 text-base md:text-sm lg:text-lg font-semibold transition navs`
                     }
                 >
                     Home
@@ -42,7 +42,7 @@ const Navbar = () => {
             <li className="">
                 <a
                     onClick={(e) => handleAnchorClick(e, "about")}
-                    className=" text-black duration-300 text-base lg:text-lg font-semibold transition navs cursor-pointer"
+                    className=" text-black duration-300 text-base md:text-sm lg:text-lg font-semibold transition navs cursor-pointer"
                 >
                     About
                 </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <li className="">
                 <a
                     onClick={(e) => handleAnchorClick(e, "expertise")}
-                    className=" text-black duration-300 text-base lg:text-lg font-semibold transition navs cursor-pointer"
+                    className=" text-black duration-300 text-base md:text-sm lg:text-lg font-semibold transition navs cursor-pointer"
                 >
                     Expertise
                 </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
             <li className="">
                 <a
                     onClick={(e) => handleAnchorClick(e, "experience")}
-                    className=" text-black duration-300 text-base lg:text-lg font-semibold transition navs cursor-pointer"
+                    className=" text-black duration-300 text-base md:text-sm lg:text-lg font-semibold transition navs cursor-pointer"
                 >
                     Experience
                 </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
             <li className="">
                 <a
                     onClick={(e) => handleAnchorClick(e, "projects")}
-                    className=" text-black duration-300 text-base lg:text-lg font-semibold transition navs cursor-pointer"
+                    className=" text-black duration-300 text-base md:text-sm lg:text-lg font-semibold transition navs cursor-pointer"
                 >
                     Projects
                 </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
             <li className="">
                 <a
                     onClick={(e) => handleAnchorClick(e, "contact")}
-                    className=" text-black duration-300 text-base lg:text-lg font-semibold transition navs cursor-pointer"
+                    className=" text-black duration-300 text-base md:text-sm lg:text-lg font-semibold transition navs cursor-pointer"
                 >
                     Contact Me
                 </a>
@@ -128,7 +128,7 @@ const Navbar = () => {
     )
     return (
         <div
-            className={`max-w-screen z-10 fixed top-0 mx-auto left-0 right-0 ${isScrolled ? "bg-[#F4F6F7] shadow-sm shadow-white" : "bg-none"
+            className={`max-w-screen z-10 fixed top-0 mx-auto left-0 right-0 ${isScrolled ? "lg:bg-[#F4F6F7] bg-gray-400 shadow-sm shadow-white" : "lg:bg-none bg-gray-300"
                 }`}
         >
             <div className="max-w-[1200px] w-full mx-auto">
@@ -162,9 +162,11 @@ const Navbar = () => {
                                 {navlinks}
                             </ul>
                         </div>
-                        <Link to='/'>
-                            <img className="w-40 " src="https://i.ibb.co/QncM1jG/logo-2.png" alt="" />
-                        </Link>
+                        <div className="md:ml-0 ml-20">
+                            <Link to='/'>
+                                <img className="w-40 " src="https://i.ibb.co/QncM1jG/logo-2.png" alt="" />
+                            </Link>
+                        </div>
                     </div>
                     <div className="">
                         <ul className="hidden md:flex items-center gap-8 style">{navlinks}</ul>

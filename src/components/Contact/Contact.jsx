@@ -49,13 +49,13 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='mx-12 style mt-28 mb-20'>
+        <div id='contact' className='mx-3 lg:mx-12 style mt-28 mb-20'>
             <div className="border-b-2 border-black">
                 <h1 className="text-3xl font-bold">Contact Through</h1>
             </div>
-            <div className='flex my-10'>
+            <div className='flex flex-col lg:flex-row my-10'>
                 {/* contact form */}
-                <section className="bg-white w-2/3">
+                <section className="bg-white lg:w-2/3">
                     <div className="py-8 lg:py-16 mx-auto max-w-screen-md">
                         <form ref={form} onSubmit={sendEmail} className="space-y-8">
                             <div>
@@ -79,7 +79,7 @@ const Contact = () => {
                 {/* divider */}
                 <div className="divider lg:divider-horizontal">OR</div>
                 {/* links */}
-                <div className='ml-10 mt-20 space-y-16'>
+                <div className='flex flex-col md:flex-row lg:flex-col justify-normal md:justify-between lg:justify-normal items-start md:items-center lg:items-start ml-3 lg:ml-10 mt-5 lg:mt-20 space-y-16'>
                     <div>
                         <h3 className='text-xl lg:text-3xl mb-4 border-b border-gray-600 w-52'>Get In Touch</h3>
                         <div className='space-y-2'>

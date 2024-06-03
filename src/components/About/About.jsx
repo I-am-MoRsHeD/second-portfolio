@@ -2,13 +2,13 @@ import { FaCheckCircle } from 'react-icons/fa';
 
 const About = () => {
     return (
-        <div id='about' className="mx-12 my-20 style">
+        <div id='about' className="mx-3 lg:mx-12 my-20 style">
             <div className="border-b-2 border-black">
                 <h1 className="text-3xl font-bold">About Me</h1>
             </div>
             {/* about me section */}
             <div className='flex justify-center my-10 lg:gap-32 items-center'>
-                <div className=' lg:px-0 px-5'>
+                <div className=''>
                     <h3 className='text-xl lg:text-3xl mb-4 border-b border-gray-600 w-44'>Who Am I?</h3>
                     {/* <div className="divider w-1/3"></div> */}
                     <p className=' mb-4'>Hi!I am <span className='text-2xl font-bold'>Mohammed Morshed</span> from Chattogram,Bangladesh.I am a MERN Stack Developer and i can build user friendly websites,based on user comfortablity.I am also a Frontend Developer,obviously skilled in Javascript, React,TailwindCSS,Vanilla CSS and others which needed i can apply into site.</p>
@@ -21,10 +21,10 @@ const About = () => {
             {/* Education */}
             <div className='my-20 px-5 lg:px-0'>
                 <h1 data-aos="fade-right"
-                    data-aos-duration="2000" className="text-3xl style border-b border-gray-600 w-44">Education</h1>
+                    data-aos-duration="1000" className="text-3xl style border-b border-gray-600 w-44">Education</h1>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-10">
                     <li data-aos="fade-up"
-                        data-aos-duration="2000">
+                        data-aos-duration="1000">
                         <div className="timeline-middle">
                             <FaCheckCircle />
                         </div>
