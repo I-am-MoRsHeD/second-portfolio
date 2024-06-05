@@ -93,10 +93,16 @@ const Contact = () => {
                         <h3 className='text-xl lg:text-3xl mb-4 border-b border-gray-600 w-44'>Socials</h3>
                         <div className='flex gap-3 items-center'>
                             <Link className='text-blue-600 text-2xl' title='LinkedIn' target='blank' to='https://www.linkedin.com/in/md-morshed-b634692a3/'><FaLinkedin /></Link>
-                            <Link title='LinkedIn' className='text-2xl' target='blank' to='https://github.com/I-am-MoRsHeD'><FaGithub /></Link>
-                            <img className='w-8 h-8' src="https://i.ibb.co/37d2Xd6/facebook.png" alt="" />
-                            <img className='w-8 h-8' src="https://i.ibb.co/48bZk1N/instagram.png" alt="" />
-                            <img className='w-8 h-8' src="https://i.ibb.co/kJWqxQZ/whatsapp.png" alt="" />
+                            <Link title='Github' className='text-2xl' target='blank' to='https://github.com/I-am-MoRsHeD'><FaGithub /></Link>
+                            <Link title='Facebook' className='text-2xl' target='blank' to='https://www.facebook.com/md.morshed.73997861/'>
+                                <img className='w-8 h-8' src="https://i.ibb.co/37d2Xd6/facebook.png" alt="" />
+                            </Link>
+                            <Link title='Facebook' className='text-2xl' target='blank' to='https://www.instagram.com/ig_moshiiii/'>
+                                <img className='w-8 h-8' src="https://i.ibb.co/48bZk1N/instagram.png" alt="" />
+                            </Link>
+                            {/* <Link title='Facebook' className='text-2xl' target='blank' to='https://www.facebook.com/md.morshed.73997861/'>
+                                <img className='w-8 h-8' src="https://i.ibb.co/kJWqxQZ/whatsapp.png" alt="" />
+                            </Link> */}
                         </div>
                     </div>
                 </div>
