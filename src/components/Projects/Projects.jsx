@@ -88,7 +88,7 @@ const Projects = () => {
                         <p>email: habib@gmail.com</p>
                         <p>pass: 123456</p>
                         <div className="card-actions items-center justify-start mt-3">
-                            <Link to='https://viptailor.abmgloballtd.com/' target="blank" className='btn btn-outline'>Live Link</Link>
+                            <Link to='https://supershop.abmgloballtd.com/' target="blank" className='btn btn-outline'>Live Link</Link>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ const Projects = () => {
                         <h2 className=" text-3xl font-bold style">ChikitshaHub</h2>
                         <p className='text-justify'>ChikitshaHub basically a online platform where one can collaborate with doctor and can get treatment also in video call.But i have not contributed much on this</p>
                         <div className="card-actions items-center justify-start mt-3">
-                            <Link to='https://viptailor.abmgloballtd.com/' target="blank" className='btn btn-outline'>Live Link</Link>
+                            <Link to='https://hilarious-wisp-3febc2.netlify.app/' target="blank" className='btn btn-outline'>Live Link</Link>
                         </div>
                     </div>
                 </div>
