@@ -77,7 +77,7 @@ const Projects = () => {
                 </div>
                 {/* Alamgir super shob */}
                 <div data-aos="fade-up"
-                    data-aos-duration="1000" className="flex flex-col lg:flex-row bg-base-200 mb-5 lg:h-[370px]">
+                    data-aos-duration="1000" className="flex flex-col lg:flex-row bg-base-200 mb-5 lg:h-[390px]">
                     <div className='lg:w-9/12 w-full'>
                         <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="https://i.ibb.co/vh1jbby/alamgir-Super.jpg" alt="Movie" />
                     </div>
