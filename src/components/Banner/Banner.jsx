@@ -32,7 +32,7 @@ const Banner = () => {
                     <h1 className="lg:text-4xl text-lg">Hey!</h1>
                     <h3 className="lg:text-4xl text-lg">I am a <span className="text-3xl lg:text-6xl font-bold">Web Developer,</span> </h3>
                     <p className="text-xl lg:text-3xl mt-5">can be called as <span className="inline-block"><TypeAnimationPosition /></span> </p>
-                    <a href="https://drive.google.com/file/d/1RJpWNr7K2lxfgQAKnP57UUNXYfGqFXAk/view?usp=sharing" className='btn btn-neutral hover:text-black hover:bg-white hover:border-2 mt-5 text-lg lg:text-xl' download>Resume</a>
+                    <a href="https://drive.google.com/file/d/1sBJgbcUrMLJ7rHO2ZHrxMaO1ShQrfA7p/view?usp=sharing" className='btn btn-neutral hover:text-black hover:bg-white hover:border-2 mt-5 text-lg lg:text-xl' download>Resume</a>
                     <Link to='mailto:mdmorshed0187@gmail.com'><span className='btn hover:bg-[#2b3440] hover:text-white border-2 border-black mt-5 ml-2 text-lg lg:text-xl'>Say Hello</span></Link>
                 </div>
                 {/* image */}
