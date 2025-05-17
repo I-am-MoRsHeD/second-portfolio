@@ -11,9 +11,9 @@ const Banner = () => {
         Aos.init();
     }, [])
     return (
-        <div id="home" className="banner-container mt-[72px] relative style">
+        <div id="home" className="banner-container mt-24">
             {/* hidden part */}
-            <div className="bg-[url('https://i.ibb.co/zmv81Ww/bg-image2.jpg')] bg-cover lg:h-[90vh] banner1 hover:-translate-x-full">
+            {/* <div className="bg-[url('https://i.ibb.co/zmv81Ww/bg-image2.jpg')] bg-cover lg:h-[90vh] banner1 hover:-translate-x-full">
                 <div className="backdrop-brightness-50 h-full w-full flex items-center">
                     <div className="lg:ml-12 ml-4 text-white">
                         <h4 className="lg:text-3xl md:text-2xl text-lg font-semibold">Hello there!</h4>
@@ -21,9 +21,9 @@ const Banner = () => {
                         <p className="lg:text-4xl text-xl font-bold mt-6">MERN Stack Developer | Frontend Developer | ReactJs Developer</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* main part */}
-            <div className="flex justify-between items-center w-full absolute -top-1 banner2">
+            <div className="flex justify-between items-center w-full style">
                 {/* info */}
                 <div
                     data-aos="fade-right"
