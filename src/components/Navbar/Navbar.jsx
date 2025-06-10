@@ -132,7 +132,7 @@ const Navbar = () => {
                 }`}
         >
             <div className="max-w-[1200px] w-full mx-auto">
-                <div className="navbar flex flex-row justify-between">
+                <div className="flex flex-row justify-between items-center py-2">
                     <div className="">
                         <div className="dropdown md:hidden">
                             <div

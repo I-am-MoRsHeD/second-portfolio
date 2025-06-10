@@ -9,7 +9,7 @@ import Projects from "../Projects/Projects";
 
 const Home = () => {
     return (
-        <div id="home">
+        <div id="home" className="max-w-[1200px] w-full mx-auto">
             <Banner />
             <About />
             <Expertise />

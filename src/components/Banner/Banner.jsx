@@ -28,7 +28,7 @@ const Banner = () => {
                 <div
                     data-aos="fade-right"
                     data-aos-duration="4000"
-                    className="w-full lg:w-2/3 ml-2 lg:ml-12 ">
+                    className="w-full lg:w-2/3 ml-2 lg:ml-2 ">
                     <h1 className="lg:text-4xl text-lg">Hey!</h1>
                     <h3 className="lg:text-4xl text-lg">I am a <span className="text-3xl lg:text-6xl font-bold">Web Developer,</span> </h3>
                     <p className="text-xl lg:text-3xl mt-5">can be called as <span className="inline-block"><TypeAnimationPosition /></span> </p>
@@ -39,7 +39,7 @@ const Banner = () => {
                 <div
                     data-aos="fade-left"
                     data-aos-duration="4000"
-                    className="bg-gray-600 hidden md:block md:h-[415px] lg:h-[462px] w-[500px] rounded-[50%] mr-12 ">
+                    className="bg-gray-600 hidden md:block md:h-[415px] lg:h-[462px] w-[500px] rounded-[50%] ">
                     <img className="w-[600px] md:h-[450px] lg:h-[500px]" src="https://i.ibb.co/ZzRvKxS/portfolio-Pic.png" alt="" />
                 </div>
             </div>

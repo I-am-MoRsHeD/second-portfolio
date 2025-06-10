@@ -2,7 +2,7 @@
 
 const Experience = () => {
     return (
-        <div id="experience" className="mx-3 lg:mx-12 style">
+        <div id="experience" className="mx-3 lg:mx-0 style">
             <div className="border-b-2 border-black">
                 <h1 className="text-3xl font-bold">My Experience</h1>
             </div>

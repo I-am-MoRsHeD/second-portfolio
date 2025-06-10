@@ -2,7 +2,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 
 const About = () => {
     return (
-        <div id='about' className="mx-3 lg:mx-12 my-20 style">
+        <div id='about' className="mx-3 lg:mx-0 my-20 style">
             <div className="border-b-2 border-black">
                 <h1 className="text-3xl font-bold">About Me</h1>
             </div>
