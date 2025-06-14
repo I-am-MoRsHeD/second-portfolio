@@ -16,7 +16,7 @@ const About = () => {
                     <p className=' mb-4'>I hope this introduction give you a good overview about me as a developer and person,and i am eagerly excited and strongly ready for the upcoming challenge.I am eagerly ready for taking the challenge from your side also and want to blend my passionate skills in your projects!</p>
                     <p className=''>If you have any further questions or would like to discuss potential opportunities, please feel free to reach out. I am excited about the possibility of working together. Have a great day! Thank you.</p>
                 </div>
-                <img className='w-2/6 h-[500px] hidden lg:block' src="/src/assets/images/my_image.jpg" alt="" />
+                <img className='w-2/6 h-[500px] hidden lg:block' src="/images/my_image.jpg" alt="" />
             </div>
             {/* Education */}
             <div className='my-20 px-5 lg:px-0'>

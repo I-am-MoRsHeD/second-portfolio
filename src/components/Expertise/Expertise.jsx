@@ -10,7 +10,7 @@ const Expertise = () => {
             <div className="flex items-center md:justify-between my-10 md:my-14 lg:my-20 ">
                 {/* image */}
                 <div className="w-36 md:w-72 lg:w-1/2">
-                    <img src="/src/assets/images/brain2.png" alt="" />
+                    <img src="/images/brain2.png" alt="" />
                 </div>
                 {/* skills info */}
                 <div className="space-y-10">

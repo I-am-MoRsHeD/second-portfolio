@@ -14,7 +14,7 @@ const Projects = () => {
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className="flex flex-col lg:flex-row bg-base-200 mb-5 lg:h-[370px]">
                     <div className='lg:w-9/12 w-full'>
-                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="/src/assets/images/vipTailor.jpg" alt="Movie" />
+                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="/images/vipTailor.jpg" alt="Movie" />
                     </div>
                     <div className=" lg:w-96 w-full ml-0 py-5 px-5">
                         <h2 className=" text-3xl font-bold style">VIP Tailor</h2>
@@ -31,7 +31,7 @@ const Projects = () => {
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className="flex flex-col lg:flex-row bg-base-200 mb-5 lg:h-[420px]">
                     <div className='lg:w-9/12 w-full'>
-                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="/src/assets/images/alamgirSuper.jpg" alt="Movie" />
+                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="/images/alamgirSuper.jpg" alt="Movie" />
                     </div>
                     <div className=" lg:w-96 w-full ml-0 py-5 px-5">
                         <h2 className=" text-3xl font-bold style">Super Shop</h2>
@@ -50,7 +50,7 @@ const Projects = () => {
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className="flex flex-col lg:flex-row bg-base-200 mb-5 lg:h-[370px]">
                     <div className='lg:w-9/12 w-full'>
-                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="/src/assets/images/chikithshahub.png" alt="Movie" />
+                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="/images/chikithshahub.png" alt="Movie" />
                     </div>
                     <div className=" lg:w-96 w-full ml-0 py-5 px-5">
                         <h2 className=" text-3xl font-bold style">ChikitshaHub</h2>
@@ -67,7 +67,7 @@ const Projects = () => {
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className="flex flex-col lg:flex-row bg-base-200 mb-5  lg:h-[370px]">
                     <div className='lg:w-9/12 w-full'>
-                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0 image shadow-xl shadow-black' src="/src/assets/images/cooking_god.png" alt="Movie" />
+                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0 image shadow-xl shadow-black' src="/images/cooking_god.png" alt="Movie" />
                     </div>
                     <div className=" lg:w-96 w-full ml-0 py-5 px-5">
                         <h2 className=" text-3xl font-bold style">Cooking God</h2>
@@ -97,7 +97,7 @@ const Projects = () => {
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className="flex flex-col lg:flex-row bg-base-200 lg:h-[370px]">
                     <div className='lg:w-9/12 w-full'>
-                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="/src/assets/images/tech_brand.png" alt="Movie" />
+                        <img className='w-8/12 -mt-10 md:-mt-5 lg:-mt-0 mb-14 md:mb-20 lg:mb-0  image shadow-xl shadow-black' src="/images/tech_brand.png" alt="Movie" />
                     </div>
                     <div className=" lg:w-96 w-full ml-0 py-5 px-5">
                         <h2 className="card-title text-3xl font-bold style">Tech Brand</h2>
