@@ -40,7 +40,7 @@ const Banner = () => {
                     data-aos="fade-left"
                     data-aos-duration="4000"
                     className="bg-gray-600 hidden md:block md:h-[415px] lg:h-[462px] w-[500px] rounded-[50%] ">
-                    <img className="w-[600px] md:h-[450px] lg:h-[500px]" src="https://i.ibb.co/ZzRvKxS/portfolio-Pic.png" alt="" />
+                    <img className="w-[600px] md:h-[450px] lg:h-[500px]" src="/src/assets/images/right_banner.png" alt="" />
                 </div>
             </div>
         </div>

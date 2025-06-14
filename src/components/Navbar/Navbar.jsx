@@ -164,7 +164,7 @@ const Navbar = () => {
                         </div>
                         <div className="md:ml-0 ml-20">
                             <Link to='/'>
-                                <img className="w-40 " src="https://i.ibb.co/QncM1jG/logo-2.png" alt="" />
+                                <img className="w-40 " src="/src/assets/images/profile_logo.png" alt="" />
                             </Link>
                         </div>
                     </div>
